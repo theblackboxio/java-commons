@@ -4,7 +4,7 @@
 
     <groupId>io.theblackbox</groupId>
     <artifactId>commons-parent</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     
     <name>theblackbox.io commons parent pom</name>
@@ -302,6 +302,6 @@
         <connection>scm:git:git@github.com:theblackboxio/java-commons.git</connection>
         <url>scm:git:git@github.com:theblackboxio/java-commons.git</url>
         <developerConnection>scm:git:git@github.com:theblackboxio/java-commons.git</developerConnection>
-    <tag>0.1.1</tag>
+    <tag>0.1.5</tag>
   </scm>
 </project>

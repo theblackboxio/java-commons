@@ -5,13 +5,13 @@
     <parent>
         <groupId>io.theblackbox</groupId>
         <artifactId>commons-parent</artifactId>
-        <version>0.1.1</version>
+        <version>0.1.2-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
     <groupId>io.theblackbox</groupId>
     <artifactId>commons-web-sitemap</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>theblackbox.io commons web sitemap library</name>
