@@ -5,13 +5,13 @@
     <parent>
         <groupId>io.theblackbox</groupId>
         <artifactId>commons-parent</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
+        <version>0.1.1</version>
         <relativePath>../</relativePath>
     </parent>
 
     <groupId>io.theblackbox</groupId>
     <artifactId>commons-check</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
 
     <name>theblackbox.io commons check library</name>
