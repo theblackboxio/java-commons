@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.theblackbox</groupId>
+        <artifactId>commons-parent</artifactId>
+        <version>0.1.1-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+
+    <groupId>io.theblackbox</groupId>
+    <artifactId>commons-web-sitemap</artifactId>
+    <version>0.1.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>theblackbox.io commons web sitemap library</name>
+    <description>
+        The module contains a Java model that defines Sitemap XML. The
+        model is tagged with JAXB annotations to marshall it following
+        the Google's conventions.
+    </description>
+    <url>https://github.com/theblackboxio/java-commons/tree/master/commons-web-sitemap</url>
+
+    <developers>
+        <developer>
+            <name>Guillermo Blasco</name>
+            <email>guillermo@theblackbox.io</email>
+            <url>https://github.com/GuillermoBlasco</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.theblackbox</groupId>
+            <artifactId>commons-check</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.theblackbox</groupId>
+            <artifactId>commons-xml</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

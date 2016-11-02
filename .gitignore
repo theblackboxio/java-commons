@@ -1,0 +1,9 @@
+*.iml
+*~
+*/target/
+/.idea
+*/.idea
+target/
+*.releaseBackup
+*/*.releaseBackup
+release.properties
