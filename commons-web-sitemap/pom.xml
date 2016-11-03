@@ -28,6 +28,11 @@
             <email>guillermo@theblackbox.io</email>
             <url>https://github.com/GuillermoBlasco</url>
         </developer>
+        <developer>
+            <name>Rubén Calderón</name>
+            <email>rubencalde@gmail.com</email>
+            <url>https://github.com/zaiken</url>
+        </developer>
     </developers>
 
     <licenses>
