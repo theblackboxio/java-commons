@@ -19,6 +19,7 @@
         <module>commons-version</module>
         <module>commons-xml</module>
         <module>commons-web-sitemap</module>
+        <module>commons-integration-slack</module>
     </modules>
 
     <developers>
@@ -60,6 +61,21 @@
                 <version>${project.version}</version>
             </dependency>
 
+
+            <!-- Spring -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>4.3.3.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+                <version>1.4.1.RELEASE</version>
+            </dependency>
+
+
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
@@ -72,6 +88,13 @@
                 <scope>compile</scope>
             </dependency>
             <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson-version}</version>
+            </dependency>
+
+            <!-- Tests -->
+            <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
                 <version>${junit.jupiter.version}</version>
@@ -82,11 +105,6 @@
                 <artifactId>junit-jupiter-api</artifactId>
                 <version>${junit.jupiter.version}</version>
                 <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-annotations</artifactId>
-                <version>${jackson-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

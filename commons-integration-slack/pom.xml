@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.theblackbox</groupId>
+        <artifactId>commons-parent</artifactId>
+        <version>0.1.2-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+
+    <groupId>io.theblackbox</groupId>
+    <artifactId>commons-integration-slack</artifactId>
+    <version>0.1.2-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>theblackbox.io commons slack integration library</name>
+    <description>
+        The module contains an integration of slack bot.
+    </description>
+    <url>https://github.com/theblackboxio/java-commons/tree/master/commons-integration-slack</url>
+
+    <developers>
+        <developer>
+            <name>Guillermo Blasco</name>
+            <email>guillermo@theblackbox.io</email>
+            <url>https://github.com/GuillermoBlasco</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
