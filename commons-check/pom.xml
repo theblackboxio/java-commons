@@ -11,7 +11,7 @@
 
     <groupId>io.theblackbox</groupId>
     <artifactId>commons-check</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
     <packaging>jar</packaging>
 
     <name>theblackbox.io commons check library</name>
